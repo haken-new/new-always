@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Always</title>
+
+    <!-- primary meta tags -->
+     <meta name="title" content="NA">
+     <meta name="description" content="This is a business agency html template made by codewithdonald">
+     <!--
+     -favicon
+     -->
+     <link rel="shortcut icon" href="./assets/images/light-logo.svg" type="image/svg+xml">
+
+     <!--
+     -google font link
+     -->
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!--
+    -custom css link
+    -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    -preload images
+    -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+<body>
+
+    <!--
+    - #HEADER
+    -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/light-logo.svg" width="74" height="24" alt="Adex home" class="logo-light">
+                <img src="./assets/images/logo.svg" width="74" height="24" alt="Adex home" class="logo-dark">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/light-logo.svg" width="74" height="24" alt="Adex home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#hero" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="navbar-link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="navbar-link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#feature" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#footer" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:zagadyeb@gmail.com" class="contact-link">zagadyeb@gmail.com</a>
+
+                    <a href="tel:+250791372132" class="contact-link">+(250) 791 372 132</a>
+                </div>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <a href="#" class="btn btn-primary">Free Trial</a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <article>
+
+            <!--
+            - #HERO
+            -->
+
+            <section class="section hero has-bg-image" aria-label="home" style="background-image: url(./assets/images/hero-bg.jpg);" id="hero">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <h1 class="h1 hero-title">✨Welcome to New Always — Advertising Reimagined By ZAGADY.</h1>
+
+                        <p class="hero-text">
+                            At <strong>🎤New Always</strong>, we believe in the power of fresh ideas and fearless creativity. We don’t just promote brands — we bring them to life, spark conversations, and leave lasting impressions.
+                        </p>
+
+                        <div class="btn-wrapper">
+
+                            <a href="#" class="btn btn-primary">Explore Now</a>
+
+                            <a href="#" class="btn btn-outline">Contact Us</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="hero-slider" data-slider>
+
+                        <div class="slider-inner">
+                            <ul class="slider-container" data-slider-container>
+
+                                <li class="slider-item">
+
+                                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                                       <img src="./assets/images/evode-1.jpg" width="575" height="550"
+                                        alt="" class="img-cover">
+                                    </figure>
+
+                                </li>
+
+                                <li class="slider-item">
+            
+                                    <div class="hero-card">
+                                      <figure class="img-holder" style="--width: 575; --height: 550;">
+                                         <video src="./assets/images/evode-vid.mp4" width="575" height="550" alt="hero banner" class="img-cover">
+                                      </figure>
+
+                                      <button class="play-btn" aria-label="play adex intro">
+                                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                      </button> 
+
+                                    </div>
+
+                                </li>
+
+                                <li class="slider-item">
+
+                                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                                       <img src="./assets/images/evode-2.jpg" width="575" height="550"
+                                        alt="" class="img-cover">
+                                    </figure>
+
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+                            <ion-icon name="arrow-back"></ion-icon>
+                        </button>
+
+                        <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </button>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+            <!--
+            - #SERVICE
+            -->
+
+            <section class="section service" aria-labelledby="service-label" id="service">
+                <div class="container">
+                    <p class="section-subtitle" id="service-label">What We Do?</p>
+
+                    <h2 class="h2 section-title">
+                        The service we offer is specifically designed to meet your needs.
+                    </h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <h3 class="h4 card-title">24/7 Support</h3>
+
+                                <p class="card-text">
+                                    We’re here whenever you need us — day or night. Quick responses, real solutions, always on.
+                                </p>
+
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <h3 class="h4 card-title">Secure Payments</h3>
+
+                                <p class="card-text">
+                                    Your transactions are protected with top-tier encryption. Safe, smooth, and stress-free.
+                                </p>
+
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <h3 class="h4 card-title">Daily Updates</h3>
+
+                                <p class="card-text">
+                                    Stay in the loop with fresh updates on your campaigns, performance, and project progress — every single day.
+                                </p>
+
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <h3 class="h4 card-title">Market Research</h3>
+
+                                <p class="card-text">
+                                    We dig deep to understand your audience and trends — so your ads hit the right people at the right time.
+                                </p>
+
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+
+
+
+            <!--
+            - #ABOUT
+            -->
+
+            <section class="about" aria-labelledby="about-label" id="about">
+                <div class="container">
+
+                    <figure class="about-banner">
+                        <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner" class="w-100">
+                    </figure>
+
+                    <div class="about-content">
+
+                        <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+                        <h2 class="h2 section-title">
+                            We bring solutions to make life easier for our clients.
+                        </h2>
+
+                        <ul>
+
+                            <li class="about-item">
+                                <div class="accordion-card expanded" data-accordion>
+
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Professional Approach</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        We mix creativity with strategy to build campaigns that truly work. Every project is handled with attention to detail, clear communication, and a strong focus on results.
+                                    </p>
+
+                                </div>
+                            </li>
+
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Top-Notch Support</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        Our support team is quick, helpful, and always available. Whether it’s a small update or a big question, we’re here with real solutions — no delays, no bots.
+                                    </p>
+
+                                </div>
+                            </li>
+
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Exclusive Audience</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        With access to a vast and growing audience network, we make sure your brand gets seen by the right people — not just many, but the most valuable. Quality targeting meets powerful reach💯.
+                                    </p>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--
+            - #FEATURE
+            -->
+
+            <section class="section feature" aria-labelledby="feature-label" id="feature">
+                <div class="container">
+
+                    <figure class="feature-banner">
+                        <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner" class="w-100">
+                    </figure>
+
+                    <div class="feature-content">
+
+                        <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+                        <h2 class="h2 section-title">
+                            Innovative advertising solutions that grow your brand.
+                        </h2>
+
+                        <p class="section-text">
+                            At New Always, we take a holistic approach to advertising. By combining creative strategy with data-driven insights and smart targeting, we ensure your brand makes a lasting impact and delivers measurable results.
+                        </p>
+
+                        <ul class="feature-list">
+
+                            <li>
+                                <div class="feature-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+
+                                    <span class="span">
+                                        Compelling campaigns that resonate.
+                                    </span>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="feature-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+
+                                    <span class="span">
+                                        Reaching your ideal audience.
+                                    </span>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="feature-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+
+                                    <span class="span">
+                                        Expanding your brand’s presence.
+                                    </span>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="feature-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+
+                                    <span class="span">
+                                        Tracking results with precision.
+                                    </span>
+
+                                </div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--
+            - #STATS
+            -->
+
+            <section class="stats" aria-label="our stats" id="stats">
+               <div class="container">
+
+                <ul class="stats-card has-bg-image" style="background-image: url(./assets/images/stats-bg.jpg);">
+
+                    <li>
+                        <p class="card-text">
+                            <span class="h1">7518</span>
+
+                            <spna class="span">Completed Projects</spna>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="card-text">
+                            <span class="h1">3472</span>
+
+                            <spna class="span">Happy Customers</spna>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="card-text">
+                            <span class="h1">2184</span>
+
+                            <spna class="span">Expert Employees</spna>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="card-text">
+                            <span class="h1">4523</span>
+
+                            <spna class="span">Awards Won</spna>
+                        </p>
+                    </li>
+
+                </ul>
+
+               </div>
+            </section>
+
+
+
+
+
+            <!--
+            - #PROJECT
+            -->
+
+            <section class="section project" aria-labelledby="project-label" id="projects">
+                <div class="container">
+
+                    <p class="section-subtitle" id="project-label">Case Studies</p>
+
+                    <h2 class="h2 section-title">
+                        Check out some of our awesome projects with creative ideas and great design.
+                    </h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="project-card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+                                    <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy" alt="Ligula tristique quis risus" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Determination in Work</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        💪A focused professional, working diligently on innovative solutions.
+                                        Showcasing our hands-on approach to creative problem-solving.
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <time datetime="2022-04-14" class="meta-text">14 Apr 2022</time>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="meta-text">Editor</span>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+                                    <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy" alt="Nullam id dolor elit id nibh" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Meeting Room</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        🗣️Collaborative workspace designed for brainstorming and strategy sessions. Highlighting our team’s synergy in delivering powerful campaigns.
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <time datetime="2022-03-29" class="meta-text">29 Mar 2022</time>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="meta-text">Meeting Room</span>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+                                    <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy" alt="Ultricies fusce porta elit" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Personal Meetings/Agenda</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        A quiet, focused setting for one-on-one meetings💼. We respect each agenda, ensuring productive discussions with clear outcomes.
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <time datetime="2022-02-26" class="meta-text">26 Feb 2022</time>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="meta-text">Meeting</span>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--
+            - #CTA
+            -->
+
+            <section class="cta" aria-label="call to action">
+                <div class="container">
+
+                    <h2 class="h2 section-title">
+                        Join our community by using our services and grow your business.🤝
+                    </h2>
+
+                    <a href="#" class="btn btn-primary">Try it For Free</a>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+    
+
+
+
+    <!--
+    - #FOOTER
+    -->
+
+    <footer class="footer" id="footer">
+        <div class="container grid-list">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/light-logo.svg" width="74" height="24" alt="Adex home">
+                </a>
+
+                <p class="footer-text">
+                    &copy; 2022 codedby <strong>♠︎kamere</strong>. powered by DMD <br>All rights reserved.
+                </p>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Get in Touch</p>
+                </li>
+
+                <li>
+                    <address class="footer-text">
+                        Nyarugenge KK720, Kigali, RWANDA
+                    </address>
+                </li>
+
+                <li>
+                    <a href="mailto:zagadyeb@email.com" class="footer-link">zagadyeb@email.com</a>
+                </li>
+
+                <li>
+                    <a href="tel:+250791372132" class="footer-link">+(250) 791 372 132</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Learn More</p>
+                </li>
+
+                <li>
+                    <a href="#about" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#stats" class="footer-link">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer-link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#service" class="footer-link">Terms of Use</a>
+                </li>
+
+                <li>
+                    <a href="#feature" class="footer-link">Privacy Policy</a>
+                </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+                <p class="h4 footer-list-title">Our Newsletter</p>
+
+                <p class="footer-text">
+                    Subscribe to our newsletter to get our news & deals delivered to you.
+                </p>
+
+                <form action="https://formspree.io/f/meoawrkw" method="post" class="input-wrapper">
+                    <input type="email" name="email_address" placeholder="Email Address" id="" required class="input-field">
+
+                    <button type="submit" class="submit-btn" name="submit">Join</button>
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!--
+    -custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+    
+    <!--
+    -ionicon
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
